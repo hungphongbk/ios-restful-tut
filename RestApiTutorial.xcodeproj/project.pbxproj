@@ -13,6 +13,12 @@
 		A9F4333F1BB94D2C00D175A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F4333D1BB94D2C00D175A3 /* Main.storyboard */; };
 		A9F433411BB94D2C00D175A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F433401BB94D2C00D175A3 /* Assets.xcassets */; };
 		A9F433441BB94D2C00D175A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F433421BB94D2C00D175A3 /* LaunchScreen.storyboard */; };
+		A9F4334D1BB94E1400D175A3 /* Schedule.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9F4334B1BB94E1400D175A3 /* Schedule.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		A9F433591BB94F4300D175A3 /* ScheduleItem+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F433561BB94F4300D175A3 /* ScheduleItem+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		A9F4335A1BB94F4300D175A3 /* ScheduleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F433581BB94F4300D175A3 /* ScheduleItem.m */; settings = {ASSET_TAGS = (); }; };
+		A9F4335D1BB9564400D175A3 /* RestApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F4335C1BB9564400D175A3 /* RestApiManager.m */; settings = {ASSET_TAGS = (); }; };
+		A9F4335F1BB96BA600D175A3 /* CustomViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9F4335E1BB96BA600D175A3 /* CustomViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		A9F433621BB96CEE00D175A3 /* MyCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F433611BB96CEE00D175A3 /* MyCustomTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,16 @@
 		A9F433401BB94D2C00D175A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9F433431BB94D2C00D175A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9F433451BB94D2C00D175A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9F4334C1BB94E1400D175A3 /* Schedule.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Schedule.xcdatamodel; sourceTree = "<group>"; };
+		A9F433551BB94F4300D175A3 /* ScheduleItem+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ScheduleItem+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A9F433561BB94F4300D175A3 /* ScheduleItem+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ScheduleItem+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A9F433571BB94F4300D175A3 /* ScheduleItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleItem.h; sourceTree = "<group>"; };
+		A9F433581BB94F4300D175A3 /* ScheduleItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleItem.m; sourceTree = "<group>"; };
+		A9F4335B1BB9564400D175A3 /* RestApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestApiManager.h; path = ../RestApiManager.h; sourceTree = "<group>"; };
+		A9F4335C1BB9564400D175A3 /* RestApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestApiManager.m; path = ../RestApiManager.m; sourceTree = "<group>"; };
+		A9F4335E1BB96BA600D175A3 /* CustomViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomViewCell.xib; sourceTree = "<group>"; };
+		A9F433601BB96CEE00D175A3 /* MyCustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomTableViewCell.h; sourceTree = "<group>"; };
+		A9F433611BB96CEE00D175A3 /* MyCustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,9 @@
 		A9F433331BB94D2C00D175A3 /* RestApiTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				A9F4335B1BB9564400D175A3 /* RestApiManager.h */,
+				A9F4335C1BB9564400D175A3 /* RestApiManager.m */,
+				A9F433541BB94EEE00D175A3 /* DataModel */,
 				A9F433371BB94D2C00D175A3 /* AppDelegate.h */,
 				A9F433381BB94D2C00D175A3 /* AppDelegate.m */,
 				A9F4333A1BB94D2C00D175A3 /* ViewController.h */,
@@ -67,6 +86,9 @@
 				A9F433421BB94D2C00D175A3 /* LaunchScreen.storyboard */,
 				A9F433451BB94D2C00D175A3 /* Info.plist */,
 				A9F433341BB94D2C00D175A3 /* Supporting Files */,
+				A9F4335E1BB96BA600D175A3 /* CustomViewCell.xib */,
+				A9F433601BB96CEE00D175A3 /* MyCustomTableViewCell.h */,
+				A9F433611BB96CEE00D175A3 /* MyCustomTableViewCell.m */,
 			);
 			path = RestApiTutorial;
 			sourceTree = "<group>";
@@ -77,6 +99,18 @@
 				A9F433351BB94D2C00D175A3 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9F433541BB94EEE00D175A3 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				A9F4334B1BB94E1400D175A3 /* Schedule.xcdatamodeld */,
+				A9F433551BB94F4300D175A3 /* ScheduleItem+CoreDataProperties.h */,
+				A9F433561BB94F4300D175A3 /* ScheduleItem+CoreDataProperties.m */,
+				A9F433571BB94F4300D175A3 /* ScheduleItem.h */,
+				A9F433581BB94F4300D175A3 /* ScheduleItem.m */,
+			);
+			name = DataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9F433441BB94D2C00D175A3 /* LaunchScreen.storyboard in Resources */,
+				A9F4335F1BB96BA600D175A3 /* CustomViewCell.xib in Resources */,
 				A9F433411BB94D2C00D175A3 /* Assets.xcassets in Resources */,
 				A9F4333F1BB94D2C00D175A3 /* Main.storyboard in Resources */,
 			);
@@ -150,8 +185,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9F433591BB94F4300D175A3 /* ScheduleItem+CoreDataProperties.m in Sources */,
 				A9F4333C1BB94D2C00D175A3 /* ViewController.m in Sources */,
+				A9F4335D1BB9564400D175A3 /* RestApiManager.m in Sources */,
+				A9F4334D1BB94E1400D175A3 /* Schedule.xcdatamodeld in Sources */,
+				A9F4335A1BB94F4300D175A3 /* ScheduleItem.m in Sources */,
 				A9F433391BB94D2C00D175A3 /* AppDelegate.m in Sources */,
+				A9F433621BB96CEE00D175A3 /* MyCustomTableViewCell.m in Sources */,
 				A9F433361BB94D2C00D175A3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,10 +302,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = RestApiTutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hungphongbk.RestApiTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -273,10 +316,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = RestApiTutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hungphongbk.RestApiTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -301,6 +347,20 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A9F4334B1BB94E1400D175A3 /* Schedule.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A9F4334C1BB94E1400D175A3 /* Schedule.xcdatamodel */,
+			);
+			currentVersion = A9F4334C1BB94E1400D175A3 /* Schedule.xcdatamodel */;
+			name = Schedule.xcdatamodeld;
+			path = ../Schedule.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A9F433291BB94D2C00D175A3 /* Project object */;
 }
